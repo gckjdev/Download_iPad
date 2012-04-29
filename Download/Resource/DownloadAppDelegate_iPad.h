@@ -24,7 +24,7 @@
 #define kMobClickKey	@"4ec3d3045270151da9000026"		// To be changed for each project
 #define kDbFileName     @"iPad_Download"
 
-@interface AppDelegate_iPad : PPApplication <UIApplicationDelegate, UITabBarControllerDelegate, MobClickDelegate>
+@interface DownloadAppDelegate_iPad : PPApplication <UIApplicationDelegate, UITabBarControllerDelegate, MobClickDelegate>
 {
     UIBackgroundTaskIdentifier backgroundTask;
 

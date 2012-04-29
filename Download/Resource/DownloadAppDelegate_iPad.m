@@ -6,7 +6,7 @@
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 
-#import "AppDelegate-iPad.h"
+#import "DownloadAppDelegate_iPad.h"
 #import "UIUtils.h"
 #import "ReviewRequest.h"
 #import "DeviceDetection.h"
@@ -37,7 +37,7 @@ enum TAB_INDEX {
     TAB_BROWSE
 };
 
-@implementation AppDelegate_iPad
+@implementation DownloadAppDelegate_iPad
 
 @synthesize window;
 @synthesize tabBarController = _tabBarController;;
@@ -137,7 +137,7 @@ enum TAB_INDEX {
         
     [self initTabViewControllers];
     
-    [self.window addSubview:_tabBarController.view];	
+//    [self.window addSubview:_tabBarController.view];	
     
     self.dataManager = [[CoreDataManager alloc] initWithDBName:kDbFileName dataModelName:nil];
     //    workingQueue = dispatch_queue_create("main working queue", NULL);    

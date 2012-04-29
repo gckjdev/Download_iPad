@@ -502,11 +502,13 @@
 		EA24B5481473632700BFE1BF /* TopDownloadItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA24B5461473632700BFE1BF /* TopDownloadItemCell.xib */; };
 		EA31734015496C030026C1D5 /* DownloadWebViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA31733F15496C030026C1D5 /* DownloadWebViewController~ipad.xib */; };
 		EA3289D715426D03001ACFF4 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA3289D615426D03001ACFF4 /* MainWindow_iPad.xib */; };
-		EA3289DC15426ED2001ACFF4 /* AppDelegate-iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3289DB15426ED1001ACFF4 /* AppDelegate-iPad.m */; };
+		EA3289DC15426ED2001ACFF4 /* DownloadAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3289DB15426ED1001ACFF4 /* DownloadAppDelegate_iPad.m */; };
 		EA3C2FF8154C48FA009774FD /* ResourceCell~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA3C2FF7154C48FA009774FD /* ResourceCell~ipad.xib */; };
 		EA3C2FFB154C4F5A009774FD /* TopDownloadItemCell~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA3C2FFA154C4F59009774FD /* TopDownloadItemCell~ipad.xib */; };
 		EA3C2FFD154C58F8009774FD /* DownloadItemCell~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA3C2FFC154C58F7009774FD /* DownloadItemCell~ipad.xib */; };
 		EA709158154AC7FC00D99F21 /* TopDownloadController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA709157154AC7FC00D99F21 /* TopDownloadController~ipad.xib */; };
+		EA78A0B6154D66D0006B3B9C /* 50.png in Resources */ = {isa = PBXBuildFile; fileRef = EA78A0B4154D66D0006B3B9C /* 50.png */; };
+		EA78A0B7154D66D0006B3B9C /* 75.png in Resources */ = {isa = PBXBuildFile; fileRef = EA78A0B5154D66D0006B3B9C /* 75.png */; };
 		EA904D90154988A200DFF8E7 /* ResourceCategoryController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA904D8F154988A200DFF8E7 /* ResourceCategoryController~ipad.xib */; };
 		EA904D9215498C7200DFF8E7 /* BrowseController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA904D9115498C7200DFF8E7 /* BrowseController~ipad.xib */; };
 		EA92E21A14B426BF00469067 /* BookController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA92E21814B426BF00469067 /* BookController.m */; };
@@ -1315,12 +1317,14 @@
 		EA24B5461473632700BFE1BF /* TopDownloadItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopDownloadItemCell.xib; sourceTree = "<group>"; };
 		EA31733F15496C030026C1D5 /* DownloadWebViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "DownloadWebViewController~ipad.xib"; sourceTree = "<group>"; };
 		EA3289D615426D03001ACFF4 /* MainWindow_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow_iPad.xib; path = Resource/MainWindow_iPad.xib; sourceTree = "<group>"; };
-		EA3289DA15426ED1001ACFF4 /* AppDelegate-iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AppDelegate-iPad.h"; path = "Resource/AppDelegate-iPad.h"; sourceTree = "<group>"; };
-		EA3289DB15426ED1001ACFF4 /* AppDelegate-iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate-iPad.m"; path = "Resource/AppDelegate-iPad.m"; sourceTree = "<group>"; };
+		EA3289DA15426ED1001ACFF4 /* DownloadAppDelegate_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; name = DownloadAppDelegate_iPad.h; path = Resource/DownloadAppDelegate_iPad.h; sourceTree = "<group>"; };
+		EA3289DB15426ED1001ACFF4 /* DownloadAppDelegate_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadAppDelegate_iPad.m; path = Resource/DownloadAppDelegate_iPad.m; sourceTree = "<group>"; };
 		EA3C2FF7154C48FA009774FD /* ResourceCell~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ResourceCell~ipad.xib"; sourceTree = "<group>"; };
 		EA3C2FFA154C4F59009774FD /* TopDownloadItemCell~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TopDownloadItemCell~ipad.xib"; sourceTree = "<group>"; };
 		EA3C2FFC154C58F7009774FD /* DownloadItemCell~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "DownloadItemCell~ipad.xib"; sourceTree = "<group>"; };
 		EA709157154AC7FC00D99F21 /* TopDownloadController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TopDownloadController~ipad.xib"; sourceTree = "<group>"; };
+		EA78A0B4154D66D0006B3B9C /* 50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50.png; sourceTree = "<group>"; };
+		EA78A0B5154D66D0006B3B9C /* 75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 75.png; sourceTree = "<group>"; };
 		EA904D8F154988A200DFF8E7 /* ResourceCategoryController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ResourceCategoryController~ipad.xib"; sourceTree = "<group>"; };
 		EA904D9115498C7200DFF8E7 /* BrowseController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "BrowseController~ipad.xib"; sourceTree = "<group>"; };
 		EA92E21714B426BF00469067 /* BookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookController.h; sourceTree = "<group>"; };
@@ -1736,8 +1740,8 @@
 				EA3289D615426D03001ACFF4 /* MainWindow_iPad.xib */,
 				CAEA30DE1467BCAE006D2975 /* DownloadAppDelegate.h */,
 				CAEA30DF1467BCAE006D2975 /* DownloadAppDelegate.m */,
-				EA3289DA15426ED1001ACFF4 /* AppDelegate-iPad.h */,
-				EA3289DB15426ED1001ACFF4 /* AppDelegate-iPad.m */,
+				EA3289DA15426ED1001ACFF4 /* DownloadAppDelegate_iPad.h */,
+				EA3289DB15426ED1001ACFF4 /* DownloadAppDelegate_iPad.m */,
 				CAEA30D61467BCAE006D2975 /* Supporting Files */,
 			);
 			path = Download;
@@ -2766,6 +2770,8 @@
 		CAEA38DD1467C38B006D2975 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				EA78A0B4154D66D0006B3B9C /* 50.png */,
+				EA78A0B5154D66D0006B3B9C /* 75.png */,
 				CA222AFD14938EF900F168D4 /* Default.png */,
 				CA222AFA14938EF600F168D4 /* Default@2x.png */,
 				CA222AE71492105500F168D4 /* 57.png */,
@@ -3468,6 +3474,8 @@
 				EA3C2FFB154C4F5A009774FD /* TopDownloadItemCell~ipad.xib in Resources */,
 				EA3C2FFD154C58F8009774FD /* DownloadItemCell~ipad.xib in Resources */,
 				EAE70243154CDA200076C488 /* ItemActionController~ipad.xib in Resources */,
+				EA78A0B6154D66D0006B3B9C /* 50.png in Resources */,
+				EA78A0B7154D66D0006B3B9C /* 75.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3765,7 +3773,7 @@
 				EAE7675414AC22F600362CC5 /* VideoPlayController.m in Sources */,
 				EA92E21A14B426BF00469067 /* BookController.m in Sources */,
 				EA92E21F14B426CD00469067 /* WallpaperController.m in Sources */,
-				EA3289DC15426ED2001ACFF4 /* AppDelegate-iPad.m in Sources */,
+				EA3289DC15426ED2001ACFF4 /* DownloadAppDelegate_iPad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

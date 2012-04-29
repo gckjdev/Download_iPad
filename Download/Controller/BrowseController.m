@@ -82,7 +82,7 @@
     
     UIButton* keywordTemplateButton = [UIButton buttonWithType:UIButtonTypeCustom];
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad){
-        [keywordTemplateButton.titleLabel setFont:[UIFont systemFontOfSize:18]];
+        [keywordTemplateButton.titleLabel setFont:[UIFont systemFontOfSize:22]];
     } else {
         [keywordTemplateButton.titleLabel setFont:[UIFont systemFontOfSize:KEYWORD_FONT_SIZE]];
     }
