@@ -70,6 +70,15 @@
     
 }
 
+- (int)getKeywordFontSize
+{
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad){
+        return 22;
+    } else {
+        return KEYWORD_FONT_SIZE;
+    } 
+}
+
 - (void)viewDidLoad
 {    
     [self setDownloadNavigationTitle:NSLS(@"kThirdViewTitle")];
@@ -81,11 +90,8 @@
     NSArray* keywords = [self getKeywords];
     
     UIButton* keywordTemplateButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad){
-        [keywordTemplateButton.titleLabel setFont:[UIFont systemFontOfSize:22]];
-    } else {
-        [keywordTemplateButton.titleLabel setFont:[UIFont systemFontOfSize:KEYWORD_FONT_SIZE]];
-    }
+    
+    [keywordTemplateButton.titleLabel setFont:[UIFont systemFontOfSize:[self getKeywordFontSize]]];
     [keywordTemplateButton setTitleColor:KEYWORD_UICOLOR forState:UIControlStateNormal];    
     
     [wordsView createButtonsInView:keywords templateButton:keywordTemplateButton target:self action:@selector(clickKeyword:)];

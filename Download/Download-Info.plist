@@ -30,7 +30,7 @@
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>CFHasVideoPlayerTab</key>
-	<true/>
+	<false/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSMainNibFile~ipad</key>
